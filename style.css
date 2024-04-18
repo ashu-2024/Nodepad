@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+    font-family: Arial, sans-serif;
+
+    
+}
+
+.container {
+    /*padding: 20px;*/
+    /* padding-left: 20%;
+    padding-top: 3%; */
+    padding-left: 100px;
+    padding-top: 30px;
+    background: linear-gradient(120deg,#040D12,#183D3D);
+    color: #fff;
+    width: 100%;
+    min-height: 100vh;
+    position: fixed;
+}
+
+h1 {
+    font-size: 40px;
+    color: white;
+}
+
+.note-form {
+    margin-top: 20px;
+}
+
+textarea {
+    width: 50%;
+    height: 100px;
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#add-button{
+    background-color: white;
+    font-size: 20px;
+    color: #040D12;
+    margin-left: 22%;
+    height: 40px;
+    width: 120px;
+    border-radius: 10px;
+}
+
+#add-button:hover{
+    background: #183D3D;
+}
+
+button{
+    padding: 5px 10px;
+    background-color: lightcoral;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 7px;
+}
+
+button:hover{
+    background-color: red;
+}
+
+.notes-list {
+    padding-top: 10px;
+    text-align: left;
+}
+
+.note {
+    background-color: #f2f2f2;
+    color: black;
+    font-weight: 500;
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 50%;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+}
+.note p{
+    margin-top: -5px;
+    margin-bottom: 20px;
+}
